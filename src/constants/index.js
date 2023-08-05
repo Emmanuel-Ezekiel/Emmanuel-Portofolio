@@ -23,6 +23,8 @@ import {
   jobit,
   tripguide,
   threejs,
+  ttt,
+  aftj,
 } from "../assets";
 
 export const navLinks = [
@@ -116,28 +118,29 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Frontend Developer",
+    company_name: "The Tonic Technologies",
+    icon: ttt,
+    iconBg: "#FFFFFF",
+    date: "August 2022 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Developing and maintaining web applications using React.js, React Native and other related technologies.",
+      "Led the successful implementation of a new UI Kit, reducing frontend development time by 25% and improving consistency across the product's user interface.",
+      "Contributing with cross-functional teams to refine project requirements and design UI components, leading to a 25% improvement in development efficiency.",
       "Participating in code reviews and providing constructive feedback to other developers.",
+      "Implementing Server-Side Rendering (SSR) with Next.js for enhanced application performance and faster page load times."
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Frontend Developer",
+    company_name: "AFTJ Digital Marketing and Solutions",
+    icon: aftj,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "July 2021 - Sep 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Developed and maintained well-documented, high-quality code for front-end web and mobile application components, contributing to a 20% decrease in bug reports and an 18% improvement in code review scores.",
+      "Conducted frontend testing using Jest and React Testing Library to ensure robust application performance and identify and resolve potential issues.",
+      "Integrated third-party APIs and optimized data fetching, reducing load times by 20% and enhancing the overall user experience.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
@@ -237,6 +240,69 @@ const projects = [
       },
     ],
     image: jobit,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Trip Guide",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Trip Guide",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Trip Guide",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
     source_code_link: "https://github.com/",
   },
   {
