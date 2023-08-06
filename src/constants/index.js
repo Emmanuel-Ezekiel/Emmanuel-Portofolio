@@ -205,16 +205,16 @@ const testimonials = [
     testimonial:
       "I've never met a web developer who truly cares about their clients' success like Rick does.",
     name: "Nsikak Owo",
-    designation: "COO",
-    company: "DEF Corp",
+    designation: "Senior Frontend Developer",
+    company: "Clafiya",
     image: joy,
   },
   {
     testimonial:
       "After Emmanuel optimized our website, our traffic increased by 50%. We can't thank them enough!",
     name: "Adams Chirs",
-    designation: "CTO",
-    company: "456 Enterprises",
+    designation: "Product Designer",
+    company: "AFTJ Digital Marketing and Solutions",
     image: joy2,
   },
 ];
