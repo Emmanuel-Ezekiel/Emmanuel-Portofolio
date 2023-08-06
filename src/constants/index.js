@@ -15,16 +15,16 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  nextjs,
+  reactnative,
+  sass,
   carrent,
   jobit,
   tripguide,
   threejs,
   ttt,
   aftj,
+  roothub
 } from "../assets";
 
 export const navLinks = [
@@ -35,6 +35,10 @@ export const navLinks = [
   {
     id: "work",
     title: "Work",
+  },
+  {
+    id: "project",
+    title: "project",
   },
   {
     id: "contact",
@@ -56,7 +60,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "UI/UX Design",
     icon: creator,
   },
 ];
@@ -87,17 +91,29 @@ const technologies = [
     icon: redux,
   },
   {
+    name: "Next",
+    icon: nextjs,
+  },
+  {
     name: "Tailwind CSS",
     icon: tailwind,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "Sass",
+    icon: sass,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "React native",
+    icon: reactnative,
   },
+  // {
+  //   name: "Node JS",
+  //   icon: nodejs,
+  // },
+  // {
+  //   name: "MongoDB",
+  //   icon: mongodb,
+  // },
   {
     name: "Three JS",
     icon: threejs,
@@ -110,10 +126,10 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  // {
+  //   name: "docker",
+  //   icon: docker,
+  // },
 ];
 
 const experiences = [
@@ -145,16 +161,16 @@ const experiences = [
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    title: "Frontend Developer",
+    company_name: "The RootHub",
+    icon: roothub,
+    iconBg: "#FFFFFF",
+    date: "April 2019 - Feb 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and maintained components in ReactJS, contributing to a 15% reduction in bug reports and improving application stability.",
+      "Developed and implemented user interfaces using HTML, CSS, and JavaScript, ensuring intuitive and visually appealing designs.",
+      "Managed state effectively using Redux, enabling seamless application logic for complex functionalities.",
+      "Collaborated with the QA team to identify and resolve UI issues, reducing the number of reported bugs by 30%.",
     ],
   },
   // {
