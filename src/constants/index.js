@@ -26,6 +26,9 @@ import {
   dashcard,
   card,
   clafiya,
+  jane,
+  joy2,
+  joy,
 } from "../assets";
 
 export const navLinks = [
@@ -192,27 +195,27 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "For our team, working with Emmanuel has been a defining experience. His creative ability and mastery of developing web applications have given our projects a life we never could have imagined",
+    name: "Faith Okoji",
+    designation: "CTO",
+    company: "The Tonic Technologies",
+    image: jane,
   },
   {
     testimonial:
       "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
+    name: "Nsikak Owo",
     designation: "COO",
     company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    image: joy,
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
+      "After Emmanuel optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    name: "Adams Chirs",
     designation: "CTO",
     company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    image: joy2,
   },
 ];
 

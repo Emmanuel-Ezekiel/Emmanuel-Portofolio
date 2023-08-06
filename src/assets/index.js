@@ -41,9 +41,16 @@ import dashbreet from "./breetDash.png";
 import dashcard from "./cardDash.png";
 import card from "./cardtonic.png";
 import clafiya from "./clafiya.png";
+import jane from "./jane.webp";
+import joy2 from "./joy3.webp";
+import joy from "./joy1.webp";
+
 
 export {
   dashbreet,
+  jane,
+  joy2,
+  joy,
   dashcard,
   card,
   clafiya,
