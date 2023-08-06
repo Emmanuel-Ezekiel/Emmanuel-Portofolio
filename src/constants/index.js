@@ -10,21 +10,22 @@ import {
   reactjs,
   redux,
   tailwind,
-  nodejs,
-  mongodb,
   git,
   figma,
-  docker,
   nextjs,
   reactnative,
   sass,
-  carrent,
-  jobit,
-  tripguide,
+  spendwise,
   threejs,
   ttt,
   aftj,
-  roothub
+  roothub,
+  quick,
+  breet,
+  dashbreet,
+  dashcard,
+  card,
+  clafiya,
 } from "../assets";
 
 export const navLinks = [
@@ -144,7 +145,7 @@ const experiences = [
       "Led the successful implementation of a new UI Kit, reducing frontend development time by 25% and improving consistency across the product's user interface.",
       "Contributing with cross-functional teams to refine project requirements and design UI components, leading to a 25% improvement in development efficiency.",
       "Participating in code reviews and providing constructive feedback to other developers.",
-      "Implementing Server-Side Rendering (SSR) with Next.js for enhanced application performance and faster page load times."
+      "Implementing Server-Side Rendering (SSR) with Next.js for enhanced application performance and faster page load times.",
     ],
   },
   {
@@ -217,131 +218,199 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Quick Mechs",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "As a part of an agile development team, I contributed to building the user Interface. Using React and Redux, I created a user-friendly interface that allowed users to book appointment with mechanics. For mechanics and spare parts dealers, i focused on providing an intuitive and seamless registration processs, It received accolades from clients and contributed to an increase in user engagement by 20%. ",
+    // description:
+    //   "Web and mobile platform that allows users to find auto mechanics and workshops near them for efficient car repair and great spare part deals, Also efficient solution for mechanics, spare parts dealers, and workshops that want to connect with potential customers.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
+        name: "php",
         color: "green-text-gradient",
       },
       {
         name: "scss",
         color: "pink-text-gradient",
       },
+      {
+        name: "redux toolkit",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react native",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Material Ui",
+        color: "pink-text-gradient",
+      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    role: "Frontend Developer",
+    image: quick,
+    source_code_link: "https://quickmechs.com/home/mechanic-and-services/",
   },
   {
-    name: "Trip Guide",
+    name: "Breet Dashboard",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "As a part of a cross-functional team, I singled-handely developed breed dashboard for visualizing financial data and also smooth conversions of cryptocurrencies to liquid fiat My primary focus was on creating interactive user exeperiemce using Next js , Typescript and Redux. I collaborated with back-end developers to integrate data APIs. The dashboard provided valuable insights to the users datas. It received great feedbacks from users and contributed to an increase in user engagement by 20%.",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Typescript",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "scss",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Redux Toolkit",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: dashbreet,
+    role: "Sole Frontend Developer",
+    source_code_link: "https://dashboard.breet.app",
   },
   {
-    name: "Trip Guide",
+    name: "Clafiya Health Dashboard",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "As part of an agile development team, I contributed to building health care dashboard for users Medical Records. Using React and Redux, I created a user-friendly interface that allowed users to easily book an appointment receiving quality healthcare at their convenience. The application was well-received, with positive feedback on its performance and ease of use. Within six months of launch, the platform had over 1,000 registered users.",
     tags: [
       {
-        name: "nextjs",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Typescript",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Tailwind CSS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Redux Toolkits",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: clafiya,
+    role: "Frontend Developer",
+    source_code_link: "https://wallet.clafiya.com/",
   },
+   
   {
-    name: "Trip Guide",
+    name: "Cardtonic Dashboard",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "As a part of a cross-functional team, I lead two front-end developers in redesigning a cardtonic dashboard website to improve user experience and drive conversion rates. My responsibilities included translating wireframes and design mockups into pixel-perfect user interfaces using React and Sass. I also implemented responsive design techniques to ensure a seamless experience across various devices. Through close collaboration with the UX team, we optimized the checkout process, resulting in a 15% increase in conversion rates. The project was completed on time and received positive feedback from users and stakeholders.",
     tags: [
       {
-        name: "nextjs",
+        name: "React js",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Typescript",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "scss",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Redux Toolkits",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Material UI",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: dashcard,
+    role: "Lead Frontend Developer",
+    source_code_link: "https://dashboard.cardtonic.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Spendwise Landing Page",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      " I single-handedly developed the landing page of the web application using next js and scss, that enables users to management their Expenses and also payment solution for businesses. The project was completed on time and received positive feedback from users and stakeholders",
     tags: [
       {
-        name: "nextjs",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "restapis",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "styled-component",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    role: "Frontend Developer",
+    image: spendwise,
+    source_code_link: "https://business.spendwise.ng/",
   },
+  {
+    name: "Breet Landing Page",
+    description:
+      " As a part of a cross-functional team, I single-handedly developed the landing page of Breet which is an automated strictly-spend product that enables smooth conversions of cryptocurrencies to liquid fiat for users, Implemented Server-Side Rendering (SSR) with Next.js for enhanced application performance and faster page load times.",
+    tags: [
+      {
+        name: "Next Js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Typescript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Rest Api",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: breet,
+    role: "Frontend Developer",
+    source_code_link: "https://breet.app/",
+  },
+  {
+    name: "Cardtonic Landing Page",
+    description:
+      " As a part of a cross-functional team, I single-handedly developed the landing page of Breet which is an automated strictly-spend product that enables smooth conversions of cryptocurrencies to liquid fiat for users, Implemented Server-Side Rendering (SSR) with Next.js for enhanced application performance and faster page load times.",
+    tags: [
+      {
+        name: "Next Js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Typescript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Rest Api",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: card,
+    role: "Frontend Developer",
+    source_code_link: "https://cardtonic.com/",
+  },
+
 ];
 
 export { services, technologies, experiences, testimonials, projects };

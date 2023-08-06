@@ -34,10 +34,21 @@ import tesla from "./company/tesla.png";
 import roothub from "./company/roothub.png";
 
 import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import spendwise from "./spendwise.png";
+import quick from "./quick.png";
+import breet from "./breet.png";
+import dashbreet from "./breetDash.png";
+import dashcard from "./cardDash.png";
+import card from "./cardtonic.png";
+import clafiya from "./clafiya.png";
 
 export {
+  dashbreet,
+  dashcard,
+  card,
+  clafiya,
+  spendwise,
+  quick,
   logo,
   backend,
   creator,
@@ -64,13 +75,12 @@ export {
   starbucks,
   tesla,
   carrent,
-  jobit,
-  tripguide,
   ttt,
   aftj,
   elogo,
   roothub,
   nextjs,
   reactnative,
-  sass
+  sass,
+  breet
 };
