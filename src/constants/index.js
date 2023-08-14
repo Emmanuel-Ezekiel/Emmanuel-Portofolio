@@ -259,7 +259,7 @@ const projects = [
   {
     name: "Breet Dashboard",
     description:
-      "As a part of a cross-functional team, I singled-handely developed breed dashboard for visualizing financial data and also smooth conversions of cryptocurrencies to liquid fiat My primary focus was on creating interactive user exeperiemce using Next js , Typescript and Redux. I collaborated with back-end developers to integrate data APIs. The dashboard provided valuable insights to the users datas. It received great feedbacks from users and contributed to an increase in user engagement by 20%.",
+      "As a part of a cross-functional team, I singled-handely developed breed dashboard for visualizing financial data and also smooth conversions of cryptocurrencies to liquid fiat, My primary focus was on creating interactive user exeperiemce using Next js , Typescript and Redux. I collaborated with back-end developers to integrate data APIs. The dashboard provided valuable insights to the users datas. It received great feedbacks from users and contributed to an increase in user engagement by 20%.",
     tags: [
       {
         name: "nextjs",
@@ -310,12 +310,12 @@ const projects = [
   },
    
   {
-    name: "Cardtonic Dashboard",
+    name: "Cardtonic Mobile App",
     description:
-      "As a part of a cross-functional team, I lead two front-end developers in redesigning a cardtonic dashboard website to improve user experience and drive conversion rates. My responsibilities included translating wireframes and design mockups into pixel-perfect user interfaces using React and Sass. I also implemented responsive design techniques to ensure a seamless experience across various devices. Through close collaboration with the UX team, we optimized the checkout process, resulting in a 15% increase in conversion rates. The project was completed on time and received positive feedback from users and stakeholders.",
+      "As a part of a cross-functional team, I single-handedly developed  redesigned the cardtonic mobile app to improve user experience and drive conversion rates. My responsibilities included translating wireframes and design mockups into pixel-perfect user interfaces using React and Sass. I also implemented responsive design techniques to ensure a seamless experience across various devices. Through close collaboration with the UX team, we optimized the checkout process, resulting in a 15% increase in conversion rates. The project was completed on time and received positive feedback from users and stakeholders.",
     tags: [
       {
-        name: "React js",
+        name: "React Native",
         color: "blue-text-gradient",
       },
       {
@@ -330,36 +330,32 @@ const projects = [
         name: "Redux Toolkits",
         color: "pink-text-gradient",
       },
-      {
-        name: "Material UI",
-        color: "pink-text-gradient",
-      },
     ],
     image: dashcard,
-    role: "Lead Frontend Developer",
-    source_code_link: "https://dashboard.cardtonic.com/",
+    role: "Mobile Developer",
+    source_code_link: "https://apps.apple.com/us/app/cardtonic-sell-gift-cards/id1548466084",
   },
   {
-    name: "Spendwise Landing Page",
+    name: "Breet Mobile App",
     description:
-      " I single-handedly developed the landing page of the web application using next js and scss, that enables users to management their Expenses and also payment solution for businesses. The project was completed on time and received positive feedback from users and stakeholders",
+      " I single-handedly developed the mobile app application with React Native, that enables users to make smooth conversions of cryptocurrencies to liquid fiat. The project was completed on time and received positive feedback from users and stakeholders",
     tags: [
       {
-        name: "React",
+        name: "React Native",
         color: "blue-text-gradient",
       },
       {
-        name: "restapis",
+        name: "Typescript",
         color: "green-text-gradient",
       },
       {
-        name: "styled-component",
+        name: "Redux",
         color: "pink-text-gradient",
       },
     ],
-    role: "Frontend Developer",
-    image: spendwise,
-    source_code_link: "https://business.spendwise.ng/",
+    role: "Mobile Developer",
+    image: breet,
+    source_code_link: "https://play.google.com/store/apps/details?id=com.app.breet",
   },
   {
     name: "Breet Landing Page",
